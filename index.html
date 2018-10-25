@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/simple-line-icons.css">
     <script src="js/menu.js"></script>
     <noscript>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
         <link rel="stylesheet" href="css/style.css">
     </noscript>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,16 +20,17 @@
 <body>
 
 <div class="header">
-    <div class="icon"></div>
-    <a href="#home" class="icon-txt">tajam</a>
+
     <nav class="container-menu">
+        <div class=""><img class="icon" src="image/icon.png" alt="icon"></div>
+        <a href="#home" class="icon-txt">tajam</a>
         <ul class="fancyNav">
             <li><a href="#home">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#expertise">EXPERTISE</a></li>
             <li><a href="#teams">TEAMS</a></li>
             <li><a href="#works">WORKS</a></li>
-            <li id="people"><a href="#people">PEOPLE SAY</a></li>
+            <li><a href="#people">PEOPLE SAY</a></li>
             <li><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
@@ -169,7 +170,7 @@
         <div class="items-container color-2"></div>
         <div class="items-container color-1"></div>
     </div>
-<div class="testimonials">
+<div id="people" class="testimonials">
     <button class="button-works">LOAD MORE</button>
 </div>
 <div class="testimonials-image">
