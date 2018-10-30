@@ -157,11 +157,13 @@ nav a:hover {
     nav ul {
         display:none;
     }
+
     .open-close-menu {
         display: block;
         float: right;
         margin: 15px 25px;
     }
+
     .strip {
         width: 45px;
         height: 2px;
