@@ -174,7 +174,7 @@ nav a:hover {
         width: 100%;
         background-color: rgba(46, 9, 83, 0.94);
         text-align: center;
-        padding: 0;
+        /*padding: 0;*/
         /*box-shadow: 0 0 10px rgba(0, 0, 0, 1);*/
         /*border-radius: 15px;*/
     }
@@ -615,12 +615,14 @@ nav a:hover {
     margin: 0 auto;
     padding-top: 40px;
     display: table;
+    /*background-color: #6cc372;*/
 }
 .contact-form {
-    width: 50%;
+    width: 46%;
     float: left;
-    background-color: #ffffff;
+    /*background-color: #ba2420;*/
     position: relative;
+    margin: 0 2%;
 }
 .contact-txt {
     font-family: 'PlayfairDisplay-Bold';
@@ -630,11 +632,21 @@ nav a:hover {
     margin-bottom: 50px;
 }
 .img-contact {
-    width: 50%;
+    width: 40%;
     height: 80px;
+    margin: 0 4%;
     float: left;
     text-align: center;
     position: relative;
+    object-fit: contain;
+    /*background-color: #8da5ba;*/
+
+    /*min-width: 200px;*/
+}
+.img-icon {
+    width: 100%;
+    height: auto;
+    display: table;
 }
 .i-c {
     margin-top: 15px;
