@@ -304,7 +304,7 @@ nav a:hover {
     text-align: center;
     top: 45%;
     left: 50%;
-    width: 50px;
+    width: 80px;
     padding: 20px 20px;
     border-radius: 50px;
     border: solid 2px white;
@@ -574,7 +574,7 @@ nav a:hover {
     font-size: 100px;
     text-align: center;
     color: #ffffff;
-    margin: 0 0;
+    /*padding-top: 50px;*/
 }
 .testimonials-min-txt {
     width: 50%;
@@ -592,7 +592,7 @@ nav a:hover {
     color: white;
     text-align: center;
     letter-spacing: 1.1px;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 .txt-bot {
     font-family: 'Roboto-Light';
@@ -600,7 +600,6 @@ nav a:hover {
     color: white;
     text-align: center;
     letter-spacing: 1.1px;
-    padding-bottom: 500px;
 }
 
 /*----------------contact---------------------------------------*/
@@ -633,8 +632,8 @@ nav a:hover {
 }
 .img-contact {
     width: 40%;
-    height: 80px;
-    margin: 0 4%;
+    height: 100px;
+    margin: 2% 4%;
     float: left;
     text-align: center;
     position: relative;
