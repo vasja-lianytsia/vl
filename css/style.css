@@ -148,53 +148,7 @@ nav a:hover {
     /*background: #E65540;*/
 }
 
-
-@media screen and (max-width:850px) {
-    nav ul li {
-        display: block!important;
-        border-top:1px #79896D solid;
-    }
-    nav ul {
-        display:none;
-    }
-
-    .open-close-menu {
-        display: block;
-        float: right;
-        margin: 15px 25px;
-    }
-
-    .strip {
-        width: 45px;
-        height: 2px;
-        background-color: #00e0d0;
-        margin: 10px 0;
-    }
-    .fancyNav {
-        width: 100%;
-        background-color: rgba(46, 9, 83, 0.94);
-        text-align: center;
-        /*padding: 0;*/
-        /*box-shadow: 0 0 10px rgba(0, 0, 0, 1);*/
-        /*border-radius: 15px;*/
-    }
-    .container-menu ul li{
-        padding: 10px 10px;
-        border-bottom: solid 2px #00e0d0;
-    }
-    .container-menu ul li a {
-        font-size: 18px;
-    }
-    .scroll {
-        /*background-color: inherit;*/
-        /*box-shadow: none;*/
-    }
-}
-
-
-
 /*-------------------------------------------------------*/
-
 .txt-home {
     font-family: 'PlayfairDisplay-Black';
     font-size: 32px;
@@ -238,10 +192,9 @@ nav a:hover {
     position: relative;
 }
 .container_about-block {
-    /*width: 60%;*/
-    /*margin: 0 auto;*/
+    width: 60%;
+    margin: 0 auto;
     display: table;
-    /*position:relative;*/
 }
 .container_about_block-left {
     width: 25%;
@@ -250,9 +203,9 @@ nav a:hover {
     float: left;
 }
 .container_about_block-right {
-    width: 57%;
-    padding: 0 60px;
-    margin: 0 10px;
+    width: 70%;
+    padding-left: 60px;
+    margin: 0 12px;
     float: left;
 }
 .txt-about {
@@ -415,7 +368,6 @@ nav a:hover {
 }
 .teams-container {
     width: 60%;
-    /*height: 400px;*/
     margin: 0 auto;
     display: table;
 }
@@ -619,7 +571,7 @@ nav a:hover {
 .contact-form {
     width: 46%;
     float: left;
-    /*background-color: #ba2420;*/
+    padding-bottom: 80px;
     position: relative;
     margin: 0 2%;
 }
@@ -632,15 +584,12 @@ nav a:hover {
 }
 .img-contact {
     width: 40%;
-    height: 100px;
-    margin: 2% 4%;
+    height: 150px;
+    margin: 10px 20px 10px 0;
     float: left;
     text-align: center;
     position: relative;
     object-fit: contain;
-    /*background-color: #8da5ba;*/
-
-    /*min-width: 200px;*/
 }
 .img-icon {
     width: 100%;
@@ -656,14 +605,14 @@ nav a:hover {
     margin-bottom: 30px;
     text-align: left;
     font-size: 16px;
-    padding: 7px 0 7px 15px;
+    padding: 27px 0 27px 15px;
 }
 .cont-res-v {
     width: 85%;
     margin: 0 auto;
     text-align: left;
     font-size: 16px;
-    padding: 7px 0 143px 15px;
+    padding: 7px 0 183px 15px;
 }
 .button-contact {
     border: solid 1px rgb(0, 224, 208);
@@ -671,7 +620,7 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.01);
     border-radius: 8px;
     position: relative;
-    margin: 20px 80% 90px 0;
+    margin: 50px 80% 90px 0;
     padding: 10px 32px;
     cursor: pointer;
     transition: all .5s;
@@ -761,8 +710,9 @@ nav a:hover {
 }
 .footer-res {
     background-color: transparent;
-    padding: 17px;
+    padding: 17px 0;
     border-radius: 5px;
+    text-align: center;
     color: #ffffff;
     border: solid 1px #ffffff;
     float: left;
@@ -770,7 +720,7 @@ nav a:hover {
 }
 .button-footer {
     background-color: rgba(255, 255, 255, 0.62);
-    padding: 7px 25px;
+    padding: 7px 15px;
     margin: 0 0 0 10px;
     float: left;
     border: solid 1px #ffffff;
@@ -818,6 +768,70 @@ nav a:hover {
 }
 
 
+
+/*-----------------responsiv-------------------*/
+
+
+@media screen and (max-width:850px) {
+    nav ul li {
+        display: block !important;
+        border-top: 1px #79896D solid;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .open-close-menu {
+        display: block;
+        float: right;
+        margin: 15px 25px;
+    }
+
+    .strip {
+        width: 45px;
+        height: 2px;
+        background-color: #00e0d0;
+        margin: 10px 0;
+    }
+
+    .fancyNav {
+        width: 100%;
+        background-color: rgba(46, 9, 83, 0.94);
+        text-align: center;
+    }
+
+    .container-menu ul li {
+        padding: 10px 10px;
+        border-bottom: solid 2px #00e0d0;
+    }
+
+    .container-menu ul li a {
+        font-size: 18px;
+    }
+
+    .teams-small-container {
+        width: 45%;
+        margin: 20px 5px;
+    }
+
+    .container_about_block-right {
+        padding: 0;
+    }
+    .img-contact {
+        height: 70px;
+        margin-right: 10px;
+    }
+    .cont-res {
+        padding: 7px 0 7px 15px;
+    }
+    .footer-block {
+        width: 45%;
+    }
+    .res {
+        width: 100%;
+    }
+}
 
 
 
